@@ -57,6 +57,8 @@ public class main_class extends JFrame{
             @Override
             public void actionPerformed(ActionEvent e) {
 
+                new RemoveStudent();
+
             }
         });
         img.add(rem);
