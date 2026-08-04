@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="053e6591-b862-4b0d-97d6-8b6b80817af5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/STUDENT MANAGEMENT SYSTEM.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/student/management/system/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/student/management/system/Splash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/student/management/system/conn.java" afterDir="false" />
+    <list default="true" id="053e6591-b862-4b0d-97d6-8b6b80817af5" name="Changes" comment="Initial commit - login screen and splash setup">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ResultSet2xml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jcalendar_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jcalendar_tz_1_3_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_26_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/student/management/system/AddStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/student/management/system/UpdateStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/student/management/system/ViewStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/student/management/system/main_class.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STUDENT MANAGEMENT SYSTEM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/STUDENT MANAGEMENT SYSTEM.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/student/management/system/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/management/system/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/student/management/system/conn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/management/system/conn.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +31,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sharmanu635-tech&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sharmanu635-tech/student-management-systems.git&quot;,
+    &quot;accountId&quot;: &quot;39afcffa-7bef-4cca-9864-7d4c49eda6fe&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3,
   &quot;fromUser&quot;: false
@@ -34,13 +54,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AddStudent.executor": "Run",
     "Application.Login.executor": "Run",
+    "Application.Main_class.executor": "Run",
     "Application.Splash.executor": "Run",
+    "Application.UpdateStudent.executor": "Run",
+    "Application.ViewStudent.executor": "Run",
+    "Application.main_class.executor": "Run",
     "Application.student.management.system.Login.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -51,19 +77,48 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Splash">
-    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Login" />
+  <component name="RunManager" selected="Application.UpdateStudent">
+    <configuration name="AddStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="student.management.system.AddStudent" />
       <module name="STUDENT MANAGEMENT SYSTEM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="student.management.system.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Splash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-26" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="student.management.system.Splash" />
+    <configuration name="UpdateStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="student.management.system.UpdateStudent" />
+      <module name="STUDENT MANAGEMENT SYSTEM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="student.management.system.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ViewStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="student.management.system.ViewStudent" />
+      <module name="STUDENT MANAGEMENT SYSTEM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="student.management.system.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main_class" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="student.management.system.main_class" />
       <module name="STUDENT MANAGEMENT SYSTEM" />
       <extension name="coverage">
         <pattern>
@@ -89,15 +144,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Login" />
+      <item itemvalue="Application.AddStudent" />
+      <item itemvalue="Application.UpdateStudent" />
+      <item itemvalue="Application.ViewStudent" />
+      <item itemvalue="Application.main_class" />
       <item itemvalue="Application.student.management.system.Login" />
-      <item itemvalue="Application.Splash" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Splash" />
+        <item itemvalue="Application.UpdateStudent" />
+        <item itemvalue="Application.ViewStudent" />
+        <item itemvalue="Application.AddStudent" />
         <item itemvalue="Application.student.management.system.Login" />
-        <item itemvalue="Application.Login" />
+        <item itemvalue="Application.main_class" />
       </list>
     </recent_temporary>
   </component>
@@ -109,9 +168,22 @@
       <option name="presentableId" value="Default" />
       <updated>1785583140228</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit - login screen and splash setup">
+      <option name="closed" value="true" />
+      <created>1785652557688</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1785652557688</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit - login screen and splash setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit - login screen and splash setup" />
   </component>
 </project>
